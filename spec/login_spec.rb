@@ -17,6 +17,8 @@ describe 'the signin process', type: :feature do
     brand_listing_page.filter_by('Full Frontal with Samantha Bee')
     expect(brand_listing_page.displaying_count).to eq '1'
     expect(brand_listing_page.total_count_from_header).to eq '6'
+
+    
     expect(brand_listing_page.total_count_from_rows).to eq (1)
     brand_listing_page.clear_filter
     table = brand_listing_page.table
