@@ -3,10 +3,10 @@ require_relative '../.././page/brand_listing.rb'
 
 describe 'The sum of fan_growth_agg_value should equal the sum of the fan_growth on the table value', case: 'ex_04', type: :feature do
   it 'The sum of fan_growth_agg_value should equal the sum of the fan_growth on the table value' do
-    page = LoginPage.new
+    page = Config.new
     page.load
     sleep 40
-    page.signin('turneruser@turner.com', 'turnertest')
+    page.signin
     page.select_menu_item('Brands')
     brand_listing_page = BrandListing.new
     table = brand_listing_page.table
