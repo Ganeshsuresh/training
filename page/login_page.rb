@@ -7,7 +7,7 @@ class LoginPage < SitePrism::Page
   element :login_button, 'input.btn.btn-primary.submitButton-customizable'
   element :item_label, '.item-label'
 
-  def signin(username, password)
+  def signin_with(username, password)
     username_field.set(username)
     password_field.set(password)
     login_button.click

@@ -16,3 +16,12 @@ Ex_04
 -----
   To create a script for 
   1. The sum of fan_growth_agg_value should equal the sum of the fan_growth on the table value
+
+Ex_05
+-----
+  1.   Externalize all strings into a config class. You may later push the strings into a file
+
+Ex_06
+-----
+  1. Try login into gmail using only selenium-webdriver
+  2. Try login into explorer and navigate to brand list using only selenium-webdriver

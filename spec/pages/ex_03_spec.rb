@@ -3,10 +3,10 @@ require_relative '../.././page/brand_listing.rb'
 
 describe 'Header shows the correct result', case: 'ex_03', type: :feature do
   it 'Header shows the correct result' do
-    page = LoginPage.new
+    page = Config.new
     page.load
     sleep 40
-    page.signin('turneruser@turner.com', 'turnertest')
+    page.signin
     page.select_menu_item('Brands')
     brand_listing_page = BrandListing.new
     brand_listing_page.brands_name.include?('Full Frontal with Samantha Bee')
