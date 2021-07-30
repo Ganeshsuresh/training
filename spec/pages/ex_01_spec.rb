@@ -1,8 +1,8 @@
-require_relative '/home/ganeshh/git/trainning/page/login_page'
-require_relative '/home/ganeshh/git/trainning/page/brand_listing_page.rb'
+require_relative '../.././page/login_page.rb'
+require_relative '../.././page/brand_listing.rb'
 
 describe 'the signin process', case: 'ex_01', type: :feature do
-  it 'signs me in' do
+  it 'the signin process' do
     page = LoginPage.new
     page.load
     sleep 40

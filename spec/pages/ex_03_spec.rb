@@ -1,5 +1,5 @@
-require_relative '/home/ganeshh/git/trainning/page/login_page'
-require_relative '/home/ganeshh/git/trainning/page/brand_listing_page'
+require_relative '../.././page/login_page.rb'
+require_relative '../.././page/brand_listing.rb'
 
 describe 'Header shows the correct result', case: 'ex_03', type: :feature do
   it 'Header shows the correct result' do

@@ -1,5 +1,5 @@
-require_relative '/home/ganeshh/git/trainning/page/login_page'
-require_relative '/home/ganeshh/git/trainning/page/brand_listing_page.rb'
+require_relative '../.././page/login_page.rb'
+require_relative '../.././page/brand_listing.rb'
 
 describe 'BrandListing page Should have an Expected Brand', case: 'ex_02', type: :feature do
   it 'BrandListing page Should have an Expected Brand' do

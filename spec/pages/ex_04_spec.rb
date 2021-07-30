@@ -1,5 +1,5 @@
-require_relative '/home/ganeshh/git/trainning/page/login_page'
-require_relative '/home/ganeshh/git/trainning/page/brand_listing_page.rb'
+require_relative '../.././page/login_page.rb'
+require_relative '../.././page/brand_listing.rb'
 
 describe 'The sum of fan_growth_agg_value should equal the sum of the fan_growth on the table value', case: 'ex_04', type: :feature do
   it 'The sum of fan_growth_agg_value should equal the sum of the fan_growth on the table value' do
